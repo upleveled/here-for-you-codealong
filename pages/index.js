@@ -8,14 +8,24 @@ export default function Home() {
         <title></title>
       </Head>
 
+      <div style={{ fontSize: '80px' }}>chipmunks and squirrels</div>
+
       <div>
-        <span>here's a chipmunk 🐿</span>
+        <div style={{ fontSize: '50px' }}>here's a chipmunk 🐿</div>
+
         <img src="chipmunk.jpg" alt="Chipmunk with peanut" width="300" />
       </div>
 
       <div>
-        <span>and a chipmunk with corn 🌽</span>
+        <div style={{ fontSize: '30px' }}>and a chipmunk with corn 🌽</div>
+
         <img src="chipmunk-with-corn.jpg" />
+      </div>
+
+      <div>
+        <div style={{ fontSize: '50px' }}>here's a squirrel 🥋</div>
+
+        <img src="squirrel-kung-fu.jpg" />
       </div>
     </div>
   );
