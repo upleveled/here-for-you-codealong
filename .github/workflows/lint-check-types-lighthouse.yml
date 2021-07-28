@@ -1,7 +1,9 @@
-name: Lighthouse
-on: [push]
+name: Lint, Check Types, Lighthouse
+on: push
+
 jobs:
-  lighthouseci:
+  build:
+    name: Lint, Check Types, Lighthouse
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -10,6 +12,8 @@ jobs:
         with:
           node-version: '16'
       - run: yarn --frozen-lockfile
+      - run: yarn eslint .
+      - run: yarn tsc
       - run: yarn global add @lhci/cli@0.6.x
       - run: yarn build
       - run: lhci autorun

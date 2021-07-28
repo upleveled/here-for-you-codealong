@@ -7,7 +7,6 @@ module.exports = {
     assert: {
       assertions: {
         'apple-touch-icon': 'off',
-        'html-has-lang': 'off',
         'installable-manifest': 'off',
         'maskable-icon': 'off',
         'offline-start-url': 'off',
@@ -15,7 +14,6 @@ module.exports = {
         'splash-screen': 'off',
         'themed-omnibox': 'off',
         'works-offline': 'off',
-        'unsized-images': 'off',
         'legacy-javascript': 'off',
       },
     },
