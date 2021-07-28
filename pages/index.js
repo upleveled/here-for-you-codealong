@@ -27,6 +27,12 @@ export default function Home() {
 
         <img src="squirrel-kung-fu.jpg" />
       </div>
+
+      <div>
+        <div style={{ fontSize: '50px' }}>and another squirrel with a hat</div>
+
+        <img src="squirrel-hat.jpg" />
+      </div>
     </div>
   );
 }
