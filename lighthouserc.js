@@ -15,7 +15,7 @@ module.exports = {
         'themed-omnibox': 'off',
         'works-offline': 'off',
         'legacy-javascript': 'off',
-        'uses-responsive-images': 'on',
+        'uses-responsive-images': ['error', { maxLength: 0 }],
       },
     },
   },
