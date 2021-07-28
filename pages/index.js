@@ -64,7 +64,7 @@ export default function Home() {
           </span>
         </a>
       </footer>
-      <img src="chipmunk.jpg" />
+      <img src="chipmunk.jpg" width="300" />
     </div>
   );
 }
