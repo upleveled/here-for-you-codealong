@@ -8,7 +8,15 @@ export default function Home() {
         <title></title>
       </Head>
 
-      <img src="chipmunk.jpg" alt="" width="300" />
+      <div>
+        <span>here's a chipmunk 🐿</span>
+        <img src="chipmunk.jpg" alt="Chipmunk with peanut" width="300" />
+      </div>
+
+      <div>
+        <span>and a chipmunk with corn 🌽</span>
+        <img src="chipmunk-with-corn.jpg" />
+      </div>
     </div>
   );
 }
