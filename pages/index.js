@@ -24,6 +24,12 @@ export default function Home() {
         <img src="chipmunk-with-corn-large.jpg" />
       </div>
 
+      <div>
+        <div style={{ fontSize: '50px' }}>here's a squirrel 🥋</div>
+
+        <img src="squirrel-kung-fu-large.jpg" />
+      </div>
+
       <div
         style={{
           border: '1px solid #666',
@@ -36,21 +42,13 @@ export default function Home() {
       </div>
 
       {showMore && (
-        <>
-          <div>
-            <div style={{ fontSize: '50px' }}>here's a squirrel 🥋</div>
-
-            <img src="squirrel-kung-fu-large.jpg" />
+        <div>
+          <div style={{ fontSize: '50px' }}>
+            and another squirrel with a hat 🧢
           </div>
 
-          <div>
-            <div style={{ fontSize: '50px' }}>
-              and another squirrel with a hat 🧢
-            </div>
-
-            <img src="squirrel-hat.jpg" />
-          </div>
-        </>
+          <img src="squirrel-hat.jpg" />
+        </div>
       )}
     </div>
   );
