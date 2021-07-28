@@ -30,15 +30,16 @@ export default function Home() {
         <img src="squirrel-kung-fu-large.jpg" />
       </div>
 
-      <div
-        style={{
-          border: '1px solid #666',
-          padding: '5px 10px',
-          borderRadius: 5,
-        }}
-        onClick={() => setShowMore(true)}
-      >
-        show more
+      <div>
+        <div style={{ fontSize: '30px' }}>a squirrel movie! 🎥</div>
+
+        <img src="squirrel-tail.gif" />
+      </div>
+
+      <div style={{ margin: '100px 0' }}>
+        <div className={styles.buttonLike} onClick={() => setShowMore(true)}>
+          show more
+        </div>
       </div>
 
       {showMore && (
