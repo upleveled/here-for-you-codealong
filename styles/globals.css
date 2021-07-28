@@ -11,6 +11,10 @@ a {
   text-decoration: none;
 }
 
+img {
+  max-width: 900px;
+}
+
 * {
   box-sizing: border-box;
 }
