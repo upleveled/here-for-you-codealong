@@ -29,7 +29,9 @@ export default function Home() {
       </div>
 
       <div>
-        <div style={{ fontSize: '50px' }}>and another squirrel with a hat</div>
+        <div style={{ fontSize: '50px' }}>
+          and another squirrel with a hat 🧢
+        </div>
 
         <img src="squirrel-hat.jpg" />
       </div>
