@@ -7,48 +7,57 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title></title>
+        <title>Chipmunks and Squirrels</title>
       </Head>
 
-      <div style={{ fontSize: '80px' }}>chipmunks and squirrels</div>
+      <h1 style={{ fontSize: '80px' }}>chipmunks and squirrels</h1>
 
       <div>
-        <div style={{ fontSize: '50px' }}>here's a chipmunk 🐿</div>
+        <h2 style={{ fontSize: '50px' }}>here's a chipmunk 🐿</h2>
 
         <img src="chipmunk.jpg" alt="Chipmunk with peanut" width="300" />
       </div>
 
       <div>
-        <div style={{ fontSize: '30px' }}>and a chipmunk with corn 🌽</div>
+        <h2 style={{ fontSize: '30px' }}>and a chipmunk with corn 🌽</h2>
 
-        <img src="chipmunk-with-corn-large.jpg" />
+        <img
+          src="chipmunk-with-corn-small.jpg"
+          alt="a chipmunk with a cob of corn"
+        />
       </div>
 
       <div>
-        <div style={{ fontSize: '50px' }}>here's a squirrel 🥋</div>
+        <h2 style={{ fontSize: '50px' }}>here's a squirrel 🥋</h2>
 
-        <img src="squirrel-kung-fu-large.jpg" />
+        <img src="squirrel-kung-fu-small.jpg" alt="a squirrel doing kung fu" />
       </div>
 
       <div>
-        <div style={{ fontSize: '30px' }}>a squirrel movie! 🎥</div>
+        <h2 style={{ fontSize: '30px' }}>a squirrel movie! 🎥</h2>
 
-        <img src="squirrel-tail.gif" />
+        <video autoPlay muted loop>
+          <source src="squirrel-tail.mp4" />
+          <track src="squirrel-tail.vtt" kind="captions" />
+        </video>
       </div>
 
       <div style={{ margin: '100px 0' }}>
-        <div className={styles.buttonLike} onClick={() => setShowMore(true)}>
+        <button className={styles.buttonLike} onClick={() => setShowMore(true)}>
           show more
-        </div>
+        </button>
       </div>
 
       {showMore && (
         <div>
-          <div style={{ fontSize: '50px' }}>
+          <h2 style={{ fontSize: '50px' }}>
             and another squirrel with a hat 🧢
-          </div>
+          </h2>
 
-          <img src="squirrel-hat.jpg" />
+          <img
+            src="squirrel-hat.jpg"
+            alt="a squirrel with a hat and a bicycle"
+          />
         </div>
       )}
     </div>
