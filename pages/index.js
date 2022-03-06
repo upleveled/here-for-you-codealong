@@ -8,6 +8,10 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Chipmunks and Squirrels</title>
+        <meta
+          name="description"
+          content="See chipmunks and squirrels in many situations"
+        />
       </Head>
 
       <h1 style={{ fontSize: '80px' }}>chipmunks and squirrels</h1>
