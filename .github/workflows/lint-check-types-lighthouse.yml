@@ -15,6 +15,6 @@ jobs:
         uses: bahmutov/npm-install@v1
       - run: yarn eslint . --max-warnings 0
       - run: yarn tsc
-      - run: yarn global add @lhci/cli@0.7.x
+      - run: yarn global add @lhci/cli@0.8.x
       - run: yarn build
       - run: lhci autorun
