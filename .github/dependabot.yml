@@ -1,6 +1,7 @@
 version: 2
 updates:
   - package-ecosystem: npm
+    directory: "/"
     schedule:
       interval: "daily"
     # Allow only security updates (disable other version updates)
@@ -11,6 +12,7 @@ updates:
       - "dependencies"
   
   - package-ecosystem: npm
+    directory: "/"
     schedule:
       interval: "daily"
     # Allow only security updates (disable other version updates)
