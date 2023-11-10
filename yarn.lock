@@ -2781,10 +2781,10 @@ eslint-config-react-app@7.0.1:
     eslint-plugin-react-hooks "^4.3.0"
     eslint-plugin-testing-library "^5.0.1"
 
-eslint-config-upleveled@5.1.1:
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/eslint-config-upleveled/-/eslint-config-upleveled-5.1.1.tgz#bf0f43f0f2c8591897864873ac816f0eecbd3277"
-  integrity sha512-9URTOJXuh01chdjuAauW8QwqGB6LI38AmN4jIp4OAg0SH3mdOc5E8jP5AK75XHxOhKQDxZ4/WnFla4mGELHlhw==
+eslint-config-upleveled@6.2.0:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-upleveled/-/eslint-config-upleveled-6.2.0.tgz#fb22210bdb60d8c79d17f020e3f1fad92caa8c21"
+  integrity sha512-0Ms5oxFG5zQRB/fasyTiaAKdGX+SypLJ/q6IXF8B+abRNVeSGwd3dY187JSrA1aPFmH0AXI5k0wnok2G2CvhIg==
 
 eslint-import-resolver-node@^0.3.6:
   version "0.3.6"
@@ -2964,12 +2964,12 @@ eslint-plugin-testing-library@6.1.2, eslint-plugin-testing-library@^5.0.1:
   dependencies:
     "@typescript-eslint/utils" "^5.58.0"
 
-eslint-plugin-unicorn@48.0.1:
-  version "48.0.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-unicorn/-/eslint-plugin-unicorn-48.0.1.tgz#a6573bc1687ae8db7121fdd8f92394b6549a6959"
-  integrity sha512-FW+4r20myG/DqFcCSzoumaddKBicIPeFnTrifon2mWIzlfyvzwyqZjqVP7m4Cqr/ZYisS2aiLghkUWaPg6vtCw==
+eslint-plugin-unicorn@49.0.0:
+  version "49.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-unicorn/-/eslint-plugin-unicorn-49.0.0.tgz#4449ea954d7e1455eec8518f9417d7021b245fa8"
+  integrity sha512-0fHEa/8Pih5cmzFW5L7xMEfUTvI9WKeQtjmKpTUmY+BiFCDxkxrTdnURJOHKykhtwIeyYsxnecbGvDCml++z4Q==
   dependencies:
-    "@babel/helper-validator-identifier" "^7.22.5"
+    "@babel/helper-validator-identifier" "^7.22.20"
     "@eslint-community/eslint-utils" "^4.4.0"
     ci-info "^3.8.0"
     clean-regexp "^1.0.0"
@@ -2977,7 +2977,6 @@ eslint-plugin-unicorn@48.0.1:
     indent-string "^4.0.0"
     is-builtin-module "^3.2.1"
     jsesc "^3.0.2"
-    lodash "^4.17.21"
     pluralize "^8.0.0"
     read-pkg-up "^7.0.1"
     regexp-tree "^0.1.27"
