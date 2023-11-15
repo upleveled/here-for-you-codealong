@@ -1,4 +1,4 @@
-module.exports = {
+const nextConfig = {
   reactStrictMode: true,
   eslint: {
     // Warning: Dangerously allow production builds to successfully complete even if
@@ -6,3 +6,5 @@ module.exports = {
     ignoreDuringBuilds: true,
   },
 };
+
+export default nextConfig;
