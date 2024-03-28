@@ -16,10 +16,10 @@
   },
   "devDependencies": {
     "@types/node": "20.11.30",
-    "@types/react": "18.2.67",
-    "@types/react-dom": "18.2.22",
+    "@types/react": "18.2.73",
+    "@types/react-dom": "18.2.23",
     "eslint": "8.57.0",
-    "eslint-config-upleveled": "7.8.2",
+    "eslint-config-upleveled": "7.8.3",
     "eslint-import-resolver-typescript": "3.6.1",
     "stylelint": "^16.0.0",
     "stylelint-config-upleveled": "^1.0.2",
