@@ -23,6 +23,6 @@
     "eslint-import-resolver-typescript": "3.6.1",
     "stylelint": "^16.0.0",
     "stylelint-config-upleveled": "^1.0.2",
-    "typescript": "5.4.5"
+    "typescript": "5.5.2"
   }
 }
