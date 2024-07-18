@@ -1282,10 +1282,10 @@ eslint-config-flat-gitignore@0.1.7:
     find-up "^7.0.0"
     parse-gitignore "^2.0.0"
 
-eslint-config-upleveled@8.6.4:
-  version "8.6.4"
-  resolved "https://registry.yarnpkg.com/eslint-config-upleveled/-/eslint-config-upleveled-8.6.4.tgz#2ce87070b089db1195f8470f2a0cea30546c816a"
-  integrity sha512-D9G8Us8JRt05grYla5T0E/CKv/XRmSbLkff70RHGtCM/0z6QEkUHZYwsv+ro1apcHcHNuoY+NWWF0sYZqZ7giA==
+eslint-config-upleveled@8.6.5:
+  version "8.6.5"
+  resolved "https://registry.yarnpkg.com/eslint-config-upleveled/-/eslint-config-upleveled-8.6.5.tgz#dfb7258befaa51bf2a35a3b3c2974667c8b0f440"
+  integrity sha512-dcB+ZovWWV+i8G2JF3KJno8pDer3npOPLbeSauADto1ZhXDN0IP0z6BaFPasXzFVmjgfndAER538eW9uk/lQ4w==
   dependencies:
     "@babel/eslint-parser" "7.24.8"
     "@eslint/compat" "1.1.1"
