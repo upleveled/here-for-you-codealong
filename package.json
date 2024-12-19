@@ -10,15 +10,15 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "15.1.0",
+    "next": "15.1.2",
     "react": "19.0.0",
     "react-dom": "19.0.0"
   },
   "devDependencies": {
     "@types/node": "22.10.2",
-    "@types/react": "19.0.1",
+    "@types/react": "19.0.2",
     "@types/react-dom": "19.0.2",
-    "eslint": "9.16.0",
+    "eslint": "9.17.0",
     "eslint-config-upleveled": "8.12.1",
     "eslint-import-resolver-typescript": "3.7.0",
     "stylelint": "^16.0.0",
