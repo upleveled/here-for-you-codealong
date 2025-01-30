@@ -19,7 +19,7 @@
     "@types/react": "19.0.8",
     "@types/react-dom": "19.0.3",
     "eslint": "9.19.0",
-    "eslint-config-upleveled": "8.12.1",
+    "eslint-config-upleveled": "9.0.0",
     "eslint-import-resolver-typescript": "3.7.0",
     "stylelint": "^16.0.0",
     "stylelint-config-upleveled": "^1.0.2",
