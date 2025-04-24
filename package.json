@@ -18,9 +18,9 @@
     "@types/node": "22.14.1",
     "@types/react": "19.1.2",
     "@types/react-dom": "19.1.2",
-    "eslint": "9.24.0",
+    "eslint": "9.25.1",
     "eslint-config-upleveled": "9.2.3",
-    "eslint-import-resolver-typescript": "4.3.2",
+    "eslint-import-resolver-typescript": "4.3.4",
     "stylelint": "^16.0.0",
     "stylelint-config-upleveled": "^1.0.2",
     "typescript": "5.8.3"
