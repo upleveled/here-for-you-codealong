@@ -15,12 +15,12 @@
     "react-dom": "19.1.0"
   },
   "devDependencies": {
-    "@types/node": "24.0.3",
+    "@types/node": "24.0.4",
     "@types/react": "19.1.8",
     "@types/react-dom": "19.1.6",
     "eslint": "9.29.0",
     "eslint-config-upleveled": "9.2.3",
-    "eslint-import-resolver-typescript": "4.4.3",
+    "eslint-import-resolver-typescript": "4.4.4",
     "stylelint": "^16.0.0",
     "stylelint-config-upleveled": "^1.0.2",
     "typescript": "5.8.3"
