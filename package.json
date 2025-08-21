@@ -22,7 +22,7 @@
     "eslint-config-upleveled": "9.2.14",
     "eslint-import-resolver-typescript": "4.4.4",
     "stylelint": "^16.0.0",
-    "stylelint-config-upleveled": "^1.0.2",
+    "stylelint-config-upleveled": "^2.0.0",
     "typescript": "5.9.2"
   }
 }
