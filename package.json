@@ -10,7 +10,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "15.4.6",
+    "next": "15.5.0",
     "react": "19.1.1",
     "react-dom": "19.1.1"
   },
@@ -19,7 +19,7 @@
     "@types/react": "19.1.10",
     "@types/react-dom": "19.1.7",
     "eslint": "9.33.0",
-    "eslint-config-upleveled": "9.2.13",
+    "eslint-config-upleveled": "9.2.14",
     "eslint-import-resolver-typescript": "4.4.4",
     "stylelint": "^16.0.0",
     "stylelint-config-upleveled": "^1.0.2",
