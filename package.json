@@ -11,8 +11,8 @@
   },
   "dependencies": {
     "next": "15.5.5",
-    "react": "19.2.0",
-    "react-dom": "19.2.0"
+    "react": "19.2.1",
+    "react-dom": "19.2.1"
   },
   "devDependencies": {
     "@types/node": "24.10.1",
@@ -21,7 +21,7 @@
     "eslint": "9.39.1",
     "eslint-config-upleveled": "9.4.2",
     "eslint-import-resolver-typescript": "4.4.4",
-    "stylelint": "16.26.0",
+    "stylelint": "16.26.1",
     "stylelint-config-upleveled": "2.0.3",
     "typescript": "5.9.3"
   }
